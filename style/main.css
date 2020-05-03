@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+    color: pink;
+    margin: auto;
+    text-align: center;
+    font-family: monospace;
+}
+p {
+    margin: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+}
