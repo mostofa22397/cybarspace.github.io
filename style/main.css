@@ -5,8 +5,34 @@ body {
     text-align: center;
     font-family: monospace;
 }
+h1 {
+    display: inline;
+}
 p {
     margin: 30px;
     text-align: justify;
     text-justify: inter-word;
+}
+#navlist {
+    list-style-type: none;
+    /*
+    position: fixed;
+    top: 0;
+    width: 95%;
+    */
+}
+.navitem {
+    display: inline;
+}
+.button:link, .button:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+.button:hover, .button:active {
+    background-color: green;
+    color: white;
 }
