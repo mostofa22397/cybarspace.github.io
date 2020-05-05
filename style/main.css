@@ -6,7 +6,7 @@ body {
     font-family: monospace;
 }
 h1 {
-    display: inline;
+    text-decoration: none;
 }
 p {
     margin: 30px;
@@ -14,11 +14,12 @@ p {
     text-justify: inter-word;
 }
 #navlist {
+    float: right;
     list-style-type: none;
     /*
     position: fixed;
     top: 0;
-    width: 95%;
+    width: 100%;
     */
 }
 .navitem {
