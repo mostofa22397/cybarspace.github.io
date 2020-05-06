@@ -14,33 +14,47 @@ p {
 
 
 /* class styles */
-.navitem {
+.nav-bar {
+    background-color: rgba(60, 46, 53, 1);
+    height: 63px;
+}
+.nav-wrapper {
+    padding: 10px;
     display: inline;
 }
-.button:link, .button:visited {
-    background-color: rgb(204, 204, 204)y;
-    color: white;
-    border: 2px solid rgb(87, 87, 87);
-    border-radius: 6px;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-  }
-.button:hover, .button:active {
-    background-color: rgb(87, 87, 87);
-    color: rgb(204, 204, 204);
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgba(108, 80, 93, 1);
 }
+.nav-item {
+    float: right;
+}
+.btn {
+    display: block;
+}
+.nav-item .btn {
+  color: rgb(204, 204, 204);
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+/* Change the link color on hover */
+.nav-item .btn:hover {
+  background-color: #555;
+  color: white;
+}
+/* .nav-item .btn:active {
+  background-color: #4CAF50;
+  color: white;
+} */
 
 
 /* id styles */
 #logo {
+    padding: 10px;
     float: left;
     text-decoration: none;
-}
-#navlist {
-    float: right;
-    list-style-type: none;
-}
-#navbar {
-    display: inline;
 }
