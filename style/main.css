@@ -1,6 +1,6 @@
 /* element styles */
 body {
-    background-color: black;
+    background-color: rgb(44, 44, 44);
     color: pink;
     margin: auto;
     text-align: center;
@@ -26,29 +26,28 @@ p {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
+    overflow: hidden;
     background-color: rgba(108, 80, 93, 1);
 }
 .nav-item {
     float: right;
-}
-.btn {
-    display: block;
+    border-left:1px solid grey;
 }
 .nav-item .btn {
-  color: rgb(204, 204, 204);
-  padding: 8px 16px;
-  text-decoration: none;
-  text-align: center;
+    display: block;
+    color: rgb(204, 204, 204);
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
 }
 /* Change the link color on hover */
 .nav-item .btn:hover {
-  background-color: #555;
-  color: white;
+    background-color: #555;
+    color: white;
 }
 /* .nav-item .btn:active {
-  background-color: #4CAF50;
-  color: white;
+    background-color: #4CAF50;
+    color: white;
 } */
 
 
