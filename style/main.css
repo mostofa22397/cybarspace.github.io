@@ -32,12 +32,23 @@ p {
     top: 0;
     text-align: center;
     display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
-#home-button {
+.nav-list > #logo-icon {
+    order: 1;
+}
+.nav-list > #home-button {
+    order: 2;
     margin-left: auto;
 }
+.nav-list > #about-button {
+    order: 3;
+}
+.nav-list > #contact-button {
+    order: 4;
+}
 .nav-item {
-    float: right;
     border-left: 1px solid grey;
 }
 .nav-item .btn {
