@@ -37,6 +37,7 @@ p {
 }
 .nav-list > #logo-icon {
     order: 1;
+    border-left: none;
 }
 .nav-list > #home-button {
     order: 2;
