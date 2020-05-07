@@ -14,12 +14,13 @@ p {
 
 
 /* class styles */
-.nav-bar {
-    background-color: rgba(60, 46, 53, 1);
-    height: 63px;
-}
-.nav-wrapper {
+.logo-icon {
     padding: 10px;
+    float: left;
+    border-left: none;
+    text-decoration: none;
+}
+.nav-bar {
     display: inline;
 }
 .nav-list {
@@ -28,22 +29,28 @@ p {
     padding: 0;
     overflow: hidden;
     background-color: rgba(108, 80, 93, 1);
+    top: 0;
+    text-align: center;
+    display: flex;
+}
+#home-button {
+    margin-left: auto;
 }
 .nav-item {
     float: right;
-    border-left:1px solid grey;
+    border-left: 1px solid grey;
 }
 .nav-item .btn {
+    text-decoration: none;
     display: block;
     color: rgb(204, 204, 204);
     text-align: center;
     padding: 8px 16px;
-    text-decoration: none;
 }
-/* Change the link color on hover */
 .nav-item .btn:hover {
     background-color: #555;
     color: white;
+    text-decoration: none;
 }
 /* .nav-item .btn:active {
     background-color: #4CAF50;
@@ -52,8 +59,20 @@ p {
 
 
 /* id styles */
-#logo {
-    padding: 10px;
-    float: left;
-    text-decoration: none;
+
+
+/* responsive design */
+@media screen and (max-width: 600px) {
+    ul.nav-list {
+        flex-direction: column;
+    }
+    ul.nav-list .nav-item {
+        border-top: 1px solid grey;
+    }
+    ul.nav-list .nav-item:first-child {
+        border-top: none;
+    }
+    ul.nav-list .nav-item:last-child {
+        border-bottom: 1px solid grey;
+    }
 }
