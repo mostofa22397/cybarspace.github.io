@@ -31,9 +31,11 @@ p {
     background-color: rgba(108, 80, 93, 1);
     top: 0;
     text-align: center;
+    font-size: 30px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: flex-end;
 }
 .nav-list > #logo-icon {
     order: 1;
@@ -41,7 +43,6 @@ p {
 }
 .nav-list > #home-button {
     order: 2;
-    margin-left: auto;
 }
 .nav-list > #about-button {
     order: 3;
@@ -76,11 +77,14 @@ p {
     }
     ul.nav-list .nav-item {
         border-top: 1px solid white;
+        border-left: none;
     }
     ul.nav-list .nav-item:first-child {
         border-top: none;
+        border-left: none;
     }
     ul.nav-list .nav-item:last-child {
-        border-bottom: 1px solid white;
+        /* border-bottom: 1px solid white; */
+        border-left: none;
     }
 }
