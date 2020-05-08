@@ -56,7 +56,7 @@ p {
 }
 .nav-item .btn:hover,
 .nav-item .btn:active {
-    background-color: rgb(255, 236, 236);
+    background-color: rgb(253, 235, 243);
     color: rgba(108, 80, 93, 1);
 }
 
