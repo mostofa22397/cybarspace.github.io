@@ -43,19 +43,16 @@ p {
 .site-logo img {
     vertical-align: middle;
 }
-.nav-item {
-    list-style: none;
-}
 .nav-item .btn {
-    height: 54px;
+    list-style: none;
+    line-height: 34px;
     display: inline-block;
     padding: 10px 15px;
     text-decoration: none;
     text-align: center;
     color: white;
 }
-.nav-item .btn:hover,
-.nav-item .btn:active {
+.nav-item .btn:hover {
     background-color: rgb(253, 235, 243);
     color: rgba(108, 80, 93, 1);
 }
