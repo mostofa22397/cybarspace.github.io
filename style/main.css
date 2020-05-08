@@ -56,8 +56,8 @@ p {
 }
 .nav-item .btn:hover,
 .nav-item .btn:active {
-    background-color: #ff7171;
-    color: white;
+    background-color: rgb(255, 236, 236);
+    color: rgba(108, 80, 93, 1);
 }
 
 /* id styles */
