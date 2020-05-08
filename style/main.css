@@ -26,8 +26,8 @@ p {
 .nav-bar {
     /* position: fixed; */
     height: 54px;
-    width: 100%;
-    /* width: screen-width; */
+    /* width: 100%; */
+    width: device-width;
     background-color: rgba(108, 80, 93, 1);
     padding-left: 10px;
     display: flex;
@@ -68,6 +68,12 @@ p {
 }
 
 /* id styles */
+#cy-name {
+    font-size: xx-large;
+}
+#tag-line {
+    font-size: larger;
+}
 
 /* responsive design */
 @media screen and (max-width: 600px) {
