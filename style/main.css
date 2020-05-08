@@ -1,4 +1,14 @@
 /* element styles */
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: rgb(44, 44, 44);
     color: white;
@@ -12,7 +22,6 @@ p {
     text-justify: inter-word;
 }
 
-
 /* class styles */
 .logo-icon {
     padding: 10px;
@@ -21,10 +30,13 @@ p {
     text-decoration: none;
 }
 .nav-bar {
-    display: inline;
+    width: 100%;
+    background-color: rgba(108, 80, 93, 1);
+    padding-left: 30px;
+    padding-right: 10px;
 }
 .nav-list {
-    list-style-type: none;
+    list-style: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -37,20 +49,21 @@ p {
     align-items: center;
     justify-content: flex-end;
 }
-.nav-list > #logo-icon {
-    order: 1;
+#site-logo {
+    display: inline-block;
     border-left: none;
 }
 .nav-list > #home-button {
-    order: 2;
+    order: 1;
 }
 .nav-list > #about-button {
-    order: 3;
+    order: 2;
 }
 .nav-list > #contact-button {
-    order: 4;
+    order: 3;
 }
 .nav-item {
+    list-style: none;
     border-left: 1px solid white;
 }
 .nav-item .btn {
@@ -60,15 +73,14 @@ p {
     text-align: center;
     padding: 8px 16px;
 }
-.nav-item .btn:hover, .nav-item .btn:active {
+.nav-item .btn:hover,
+.nav-item .btn:active {
     background-color: #ff7171;
     color: white;
     text-decoration: none;
 }
 
-
 /* id styles */
-
 
 /* responsive design */
 @media screen and (max-width: 600px) {
