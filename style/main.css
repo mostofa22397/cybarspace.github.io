@@ -46,6 +46,9 @@ p {
     font-size: larger;
     font-weight: bold;
 }
+.site-logo:hover {
+    color: lightblue;
+}
 .site-logo img {
     vertical-align: middle;
 }
