@@ -45,6 +45,7 @@ p {
     color: whitesmoke;
     font-size: larger;
     font-weight: bold;
+    font-family: monospace;
 }
 .site-logo:hover {
     color: lightblue;
