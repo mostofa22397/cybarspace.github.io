@@ -86,7 +86,8 @@ p {
 }
 #cy-name {
     grid-area: cy-name;
-    font-size: xx-large;
+    font-size: 48px;
+    align-self: end;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -94,7 +95,8 @@ p {
 }
 #tag-line {
     grid-area: tag-line;
-    font-size: larger;
+    font-size: 32px;
+    align-self: start;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
