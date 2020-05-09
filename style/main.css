@@ -66,13 +66,31 @@ p {
     background-color: rgb(253, 235, 243);
     color: rgba(108, 80, 93, 1);
 }
+.home-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 120px;
+}
 
 /* id styles */
+#cy-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 80px;
+    justify-content: center;
+}
 #cy-name {
     font-size: xx-large;
+    text-align: right;
 }
 #tag-line {
     font-size: larger;
+    text-align: right;
+}
+#cy-display-pic {
+    padding-left: 80px;
+    border-left: 2px solid whitesmoke;
 }
 
 /* responsive design */
