@@ -1,0 +1,3 @@
+[submodule "mostofa"]
+	path = mostofa
+	url = https://github.com/cybarspace/mostofa
