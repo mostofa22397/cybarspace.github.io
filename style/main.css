@@ -75,11 +75,8 @@ p {
 /* id styles */
 #cy-intro {
     display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-template-rows: 1fr 2fr 1fr;
-    /* grid-template-areas:
-        "cy-name cy-dp"
-        "tag-line cy-dp"; */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     align-items: center;
     justify-content: center;
     text-align: right;
