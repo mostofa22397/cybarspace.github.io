@@ -77,36 +77,23 @@ p {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    align-items: center;
-    justify-content: center;
     text-align: right;
 }
 #cy-name {
     grid-area: cy-name;
     font-size: 48px;
-    align-self: end;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
+    place-self: end end;
 }
 #tag-line {
     grid-area: tag-line;
     font-size: 32px;
-    align-self: start;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    place-self: start end;
 }
 #cy-dp {
     grid-area: cy-dp;
     padding-left: 80px;
     border-left: 2px solid whitesmoke;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    place-self: center start;
 }
 
 /* responsive design */
